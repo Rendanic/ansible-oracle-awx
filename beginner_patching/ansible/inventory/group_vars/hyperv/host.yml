@@ -1,6 +1,16 @@
 ---
 
-configure_host_disks: false
+configure_host_disks: true
+
+host_fs_layout:
+  - vgname: vgora
+    state: present
+    filesystem:
+      - {mntp: swap, lvname: lvswap, lvsize: 16G, fstype: swap}
+      - {mntp: /u01, lvname: lvorabase, lvsize: 25G, fstype: xfs}
+      - {mntp: /u02, lvname: lvoradata, lvsize: 25G, fstype: xfs, fsopts: "-m reflink=1 -m crc=1"}
+    disk:
+      - {device: /dev/sdb, pvname: /dev/sdb1}
 
 # eht1 is used as a 'host-only' network to keep a static IP in VM
 nmcli_ethernet:
