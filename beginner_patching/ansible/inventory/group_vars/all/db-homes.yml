@@ -1,5 +1,5 @@
 ---
-apply_patches_db: false
+apply_patches_db: true
 db_homes_config:
 
   db1919_si_se2: &db1919_si_se2
