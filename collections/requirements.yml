@@ -3,5 +3,5 @@ collections:
   # - name: opitzconsulting.ansible_oracle
   #   version: 4.12.0
   - name: opitzconsulting.ansible_oracle
-    source: https://github.com/Rendanic/ansible-oracle.git
+    source: git@github.com:Rendanic/ansible-oracle.git
     version: master
