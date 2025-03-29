@@ -1,5 +1,5 @@
 ---
-is_sw_source_local: true
+is_sw_source_local: false
 oracle_sw_copy: true
 oracle_sw_unpack: false
 
