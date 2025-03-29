@@ -1,7 +1,7 @@
 ---
 is_sw_source_local: true
 oracle_sw_copy: false
-oracle_sw_unpack: true
+oracle_sw_unpack: false
 
 # directory for patch download
 oracle_sw_source_local: /sw
