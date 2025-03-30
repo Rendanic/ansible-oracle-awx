@@ -5,6 +5,6 @@ collections:
   # - name: opitzconsulting.ansible_oracle
   #   source: https://github.com/Rendanic/ansible-oracle.git
   #   version: master
-  - name: https://github.com/Rendanic/ansible-oracle.git
+  - source: https://github.com/Rendanic/ansible-oracle.git
     type: git
     version: apex
