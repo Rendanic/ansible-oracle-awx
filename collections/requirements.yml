@@ -7,4 +7,4 @@ collections:
   #   version: master
   - name: https://github.com/Rendanic/ansible-oracle.git
     type: git
-    version: master
+    version: apex
