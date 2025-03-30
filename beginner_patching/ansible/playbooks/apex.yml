@@ -4,4 +4,5 @@
   any_errors_fatal: true
   tasks:
     - name: APEX
-      ansible.builtin.import_role: oraapex
+      ansible.builtin.import_role:
+        name: opitzconsulting.ansible_oracle.oraapex
